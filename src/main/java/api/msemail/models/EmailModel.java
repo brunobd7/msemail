@@ -15,6 +15,7 @@ public class EmailModel {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    public String ownerRef;
     private String emailFrom;
     private String emailTo;
     private String subject;
